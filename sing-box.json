@@ -4,17 +4,17 @@
   },
   "inbounds": [
     {
-      "type": "vless",
+      "type": "trojan",
       "listen": "0.0.0.0",
       "listen_port": 80,
       "users": [
         {
-          "uuid": "ffb4ef24-2870-4634-ab6a-6882de77cd2d"
+          "password": "Nyan2212@"
         }
       ],
       "transport": {
         "type": "ws",
-        "path": "/ws"
+        "path": "/trojanws"
       }
     }
   ],
