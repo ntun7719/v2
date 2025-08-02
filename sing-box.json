@@ -7,14 +7,11 @@
       "type": "vless",
       "listen": "0.0.0.0",
       "listen_port": 80,
-      "settings": {
-        "clients": [
-          {
-            "id": "ffb4ef24-2870-4634-ab6a-6882de77cd2d"
-          }
-        ],
-        "decryption": "none"
-      },
+      "users": [
+        {
+          "uuid": "ffb4ef24-2870-4634-ab6a-6882de77cd2d"
+        }
+      ],
       "transport": {
         "type": "ws",
         "path": "/ws"
